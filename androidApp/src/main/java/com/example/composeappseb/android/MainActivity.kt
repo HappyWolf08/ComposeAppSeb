@@ -21,9 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             Column(modifier = Modifier
                     .fillMaxSize()
-                    .background(Color.Green),
+                    .background(Color.White),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Bottom
+                verticalArrangement = Arrangement.Center
 
             ) {
                 Text("Hello")
